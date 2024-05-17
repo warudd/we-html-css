@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: black;
+        }
+
+        .mint {
+            background-color: #edfeed;
+            width: 400px;
+            height: 400px;
+            position: relative;
+            /* border-radius: 100%; */
+            overflow: hidden;
+            margin: auto;
+            top: 100px;
+
+            /* animation: mov 4s linear 0s infinite normal; */
+        }
+
+        .white {
+            background-color: white;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            /* border-radius: 100%; */
+            left: 50px;
+            top: 50px;
+        }
+
+        .blue {
+            background-color: #0d00c6;
+            width: 200px;
+            height: 200px;
+            border-radius: 0%;
+            position: relative;
+        }
+
+        @keyframes mov {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mint">
+        <div class="blue"></div>
+        <div class="white"></div>
+    </div>
+</body>
+
+</html>

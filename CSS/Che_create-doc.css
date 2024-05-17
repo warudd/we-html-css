@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+body {
+    background-color: #DCDCDC;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    color:#663399;
+}
+
+table {
+    border: 2px  solid #9932CC;
+    width:650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    background-color: #DDA0DC;
+}
+
+td{
+    border-top: 1px solid #9932CC;;
+}
+
+.hightlight{
+    font-family: monospace , sans-serif;
+    background-color: #F4F5DB;
+    font-size: small;
+}
+
+
+
+

@@ -1,0 +1,61 @@
+body {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+img {
+  width: 100px;
+  border-radius: 100%;
+  border: 2px solid white;
+  margin: 10px 10px;
+}
+.user-list {
+  margin: 10px 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.user-item {
+  width: 500px;
+  margin: 10px 10px;
+  box-shadow: 1;
+  border-radius: 15px;
+}
+.user-item-card {
+  display: flex;
+  border-radius: 15px;
+  background-color: pink;
+}
+.user-item-media {
+  margin-right: 10px;
+}
+.media-name {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.media-name > p {
+  margin: 0;
+  margin-bottom: 30px;
+}
+.content {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content > * {
+  margin-left: 10px;
+}
+.content > label {
+  text-align: center;
+  font-size: 20px;
+  color: pink;
+}
+
+.content-title {
+  color: grey;
+}
